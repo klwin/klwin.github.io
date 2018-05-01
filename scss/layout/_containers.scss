@@ -1,0 +1,65 @@
+.containerHire {
+  margin-top: 100px;
+  background: url("#{$path-img}/portfolioPage.jpg") no-repeat center;
+  background-size: cover;
+  color: $white;
+  text-align: center;
+  font-size: 0.7rem;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  @media #{$break-wide} {
+    padding: 150px;
+    font-size: 1.2rem;
+  }
+}
+
+.containerHire h2 {
+  margin: 50px;
+}
+
+.tag {
+  background-color: $grey;
+  color: $black;
+  padding: 10px;
+  border-radius: $br-main;
+  display: table;
+  margin: 10px auto;
+} 
+
+.location {
+  background-color: $light-black;
+  color: $white;
+}
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: $br-main;
+  display: inline-block;
+  background: $light-grey;
+  color: $black;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills li:hover {
+  background-color: $light-black;
+  color: $white;
+}
+
+.card li {
+  list-style: none;
+}
+
+.container {
+  background-color: $light-grey;
+  padding: 3rem;
+}
+
+.container p {
+  margin: 50px;
+  font-size: 1.2rem;
+}

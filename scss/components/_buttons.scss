@@ -1,0 +1,19 @@
+.containerHire a {
+  border: 2px solid white;
+  padding: 1rem;
+  color: $white;
+  @media #{$break-wide} {
+    font-size: 1rem;
+  }
+}
+
+.container a {
+    margin-top: 3%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: $black;
+    padding: 10px;
+    background: Transparent;
+    border-color: $black;
+    border: 3px solid;
+}

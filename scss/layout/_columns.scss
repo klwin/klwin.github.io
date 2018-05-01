@@ -1,0 +1,51 @@
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  background: $white;
+  border-bottom: 4px solid $light-grey;
+  border-radius: $br-main;
+  text-align: center;
+  transition: all .5s;
+}
+
+.card:hover {
+  border-color: $dark-grey;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.portfolioLayout {
+    @media #{$break-wide} {
+      display: flex;
+      justify-content: space-around;
+      margin: 30px;
+    }
+  }
+
+.portfolioLayout img {
+  box-shadow: 10px 5px 5px $dark-grey;
+}
+
+.portfolioLayout img:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.portfolioText {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.flex {
+    @media #{$break-wide} {
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: flex; 
+      max-width: 1200px;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 0 auto;
+    }
+  }

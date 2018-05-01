@@ -1,0 +1,47 @@
+header {
+  text-align: center;
+  overflow: hidden;
+  padding: 100px;
+  @media #{$break-wide} {
+    min-height: 470px;
+  }
+}
+
+header {
+  line-height: 1.5;
+}
+
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px dotted white;
+  transition: all 0.3s;
+}
+
+header .profile-image:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+
+.indexHeader {
+  background: url('#{$path-img}/showcase.jpg') no-repeat center ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.resumeHeader {
+  background: url('#{$path-img}/resumePage.jpg') no-repeat center ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contactHeader {
+  background: url('#{$path-img}/contact.jpg') no-repeat center ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.resumeHTwo {
+  margin-bottom: 3rem;
+}
